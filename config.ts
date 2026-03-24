@@ -22,9 +22,9 @@ export const config: Config = {
   // Font Family
   font: {
     // 'google' or 'local'
-    source: 'google',
+    source: 'local',
     // Font name, e.g. 'Roboto' (case sensitive)
-    name: 'Overpass',
+    name: 'inter',
   },
 
   // Theme
@@ -51,7 +51,7 @@ export const config: Config = {
 
   // Search Bar
   searchBar: true,
-  searchEngine: 'google', // google, ddg
+  searchEngine: 'ddg', // google, ddg
   barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
